@@ -1,0 +1,27 @@
+header {
+  height: 2rem;
+}
+
+header nav {
+  float: right;
+  width: 15%;
+  height: 5vh;
+}
+
+header nav ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+}
+
+header nav ul li {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+/*# sourceMappingURL=navbar.component.css.map */

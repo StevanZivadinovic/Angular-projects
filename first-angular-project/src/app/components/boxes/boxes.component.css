@@ -1,0 +1,40 @@
+.mainBoxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #b5b66b;
+  height: 43vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainBoxes .box {
+  width: 25%;
+  height: 20rem;
+  background-color: #5f5f3d;
+  border-radius: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.mainBoxes .box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+/*# sourceMappingURL=boxes.component.css.map */

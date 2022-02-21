@@ -1,0 +1,29 @@
+.mainMain {
+  height: 50vh;
+  background-image: url("https://images.unsplash.com/photo-1643407997122-86f5534dcbd8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1075&q=80");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainMain h1 {
+  margin: 0 auto;
+  width: 40%;
+  font-size: 5rem;
+  text-align: center;
+}
+
+.mainMain p {
+  margin: 0 auto;
+  width: 30%;
+  font-size: 3rem;
+  text-align: center;
+}
+/*# sourceMappingURL=main.component.css.map */

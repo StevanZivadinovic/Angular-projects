@@ -1,0 +1,23 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: .2rem solid coral;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ecb744), to(#694d11));
+  background-image: linear-gradient(to right, #ecb744, #694d11);
+  height: 7vh;
+}
+
+header p {
+  font-size: 2rem;
+  margin: 0 3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*# sourceMappingURL=header.component.css.map */

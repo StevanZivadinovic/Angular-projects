@@ -1,0 +1,21 @@
+header{
+    height: 2rem;
+
+    
+    nav{
+        float: right;
+        width: 15%;
+        height: 5vh;
+        ul{
+            height: 100%;
+            display: flex;
+           padding: 0;
+            justify-content: space-around;
+            list-style: none;
+            li{
+                align-self: center;
+            }
+
+        }
+    }
+}
