@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+ a:number = 5;
+ inputText:string = 'unesi neko ime';
+ boolean:any = false;
+
+ nekaFunkcija(poruka:string):number{
+   alert(poruka)
+  return 1
+ }
 
   constructor() { }
 
