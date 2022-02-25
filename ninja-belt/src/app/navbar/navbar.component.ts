@@ -11,6 +11,7 @@ export class NavbarComponent implements OnInit {
  boolean:any = false;
 
  nekaFunkcija(poruka:string):number{
+   console.log('haj')
    alert(poruka)
   return 1
  }
