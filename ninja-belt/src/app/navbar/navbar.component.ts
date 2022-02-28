@@ -10,6 +10,11 @@ export class NavbarComponent implements OnInit {
  inputText:string = 'unesi neko ime';
  boolean:any = false;
 
+ ninja = {
+  belt:'red',
+  name:'Yoshi'
+ }
+
  nekaFunkcija(poruka:string):number{
    console.log('haj')
    alert(poruka)
