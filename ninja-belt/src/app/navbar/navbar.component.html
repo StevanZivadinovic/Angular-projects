@@ -11,7 +11,10 @@
 <input type="text" value="{{inputText}}"/>
 <input type="text" required="{{boolean}}"/><br>
 <button (click)="nekaFunkcija('Pozdravi za sve vas!')">Klikni me</button>
+<!-- preuzimas podatke iz sopstevnog ts fajla -->
 <input type="text" [(ngModel)] = "ninja1.belt" />
+<!-- @Output -->
+<button (click)="fireYellEvent($event)">Click me!</button>
 
 <p>{{ninja1.belt}}</p>
 <p>{{ninja1.belt}}</p>

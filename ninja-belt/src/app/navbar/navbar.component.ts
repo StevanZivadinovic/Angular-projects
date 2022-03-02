@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-navbar',
@@ -15,7 +15,13 @@ export class NavbarComponent implements OnInit {
   name:'Yoshi'
  }
 
+//  @Input se zove dekorator, kao i npr @Output
  @Input() ninja:any;
+ @Output() yell = new EventEmitter()
+
+ fireYellEvent(e:any){
+   this.yell.emit(e)
+ }
 
  nekaFunkcija(poruka:string):number{
    console.log('haj')

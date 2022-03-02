@@ -12,4 +12,9 @@ export class AppComponent {
     belt:'red',
     name:'Yoshi'
    }
+
+   yellin(e:any){
+    alert('I am loud!');
+    console.log(e)
+   }
 }
