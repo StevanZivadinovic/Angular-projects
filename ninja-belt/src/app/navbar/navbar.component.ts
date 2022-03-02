@@ -17,10 +17,17 @@ export class NavbarComponent implements OnInit {
 
 //  @Input se zove dekorator, kao i npr @Output
  @Input() ninja:any;
- @Output() yell = new EventEmitter()
+ @Output() onYell = new EventEmitter()
 
+ logujNINJU(){
+   console.log(this.ninja)
+ }
  fireYellEvent(e:any){
-   this.yell.emit(e)
+   this.onYell.emit(e)
+ }
+
+ prikaziInput(value:any){
+   console.log(value)
  }
 
  nekaFunkcija(poruka:string):number{

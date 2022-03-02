@@ -1,1 +1,13 @@
-/* No CSS *//*# sourceMappingURL=app.component.css.map */
+a:active {
+  background-color: aqua;
+}
+
+a {
+  padding: 2rem 3rem;
+  background-color: azure;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  border: 1px solid black;
+}
+/*# sourceMappingURL=app.component.css.map */
