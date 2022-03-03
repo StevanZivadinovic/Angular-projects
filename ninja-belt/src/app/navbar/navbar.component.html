@@ -1,27 +1,50 @@
 <header>
-    <nav>
-        <ul>
-            <li>link1</li>
-            <li>link2</li>
-            <li>{{a}}</li>
-        </ul>
-    </nav>
+  <nav>
+    <ul>
+      <li>link1</li>
+      <li>link2</li>
+      <li>{{ a }}</li>
+    </ul>
+  </nav>
 </header>
 
-<input type="text" value="{{inputText}}"/>
-<input type="text" required="{{boolean}}"/><br>
+<input type="text" value="{{ inputText }}" />
+<input type="text" required="{{ boolean }}" /><br />
 <button (click)="nekaFunkcija('Pozdravi za sve vas!')">Klikni me</button>
 <!-- preuzimas podatke iz sopstevnog ts fajla -->
-<input  type="text" [(ngModel)] ="ninja1.belt" id="{{ninja1.belt}}" [disabled]="true"/>
+<input
+  type="text"
+  [(ngModel)]="ninja1.belt"
+  id="{{ ninja1.belt }}"
+  [disabled]="true"
+/>
 <!-- @Output -->
 <button (click)="fireYellEvent($event)">Click me!</button>
 
 <button (click)="logujNINJU()">LOGUJ Ga</button>
 
-<input type="text" #mojInput placeholder="neki text">
-<button (click)="prikaziInput(mojInput.value)">Prikazi input ili njegovu vrednost</button>
+<input type="text" #mojInput placeholder="neki text" />
+<button (click)="prikaziInput(mojInput.value)">
+  Prikazi input ili njegovu vrednost
+</button>
 
-<p>{{ninja1.belt}}</p>
-<p>{{ninja1.belt}}</p>
+<p>{{ ninja1.belt }}</p>
+<p>{{ ninja1.belt }}</p>
+
+<h2 *ngIf="prikazatingIf; else elseBlock">Neki text za *ngIf</h2>
+
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">You picked red color</div>
+  <div *ngSwitchCase="'blue'">You picked blue color</div>
+  <div *ngSwitchCase="'green'">You picked green color</div>
+  <div *ngSwitchDefault>Pick again!</div>
+</div>
+
+<div *ngFor="let color of colors; index as i">
+  <h2>{{ i }} {{ color }}</h2>
+</div>
+<ng-template #elseBlock>
+  <h2>Hidden</h2>
+</ng-template>
 
 <ng-content></ng-content>

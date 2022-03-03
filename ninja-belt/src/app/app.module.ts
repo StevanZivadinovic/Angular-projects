@@ -5,7 +5,7 @@ import { AppRoutingModule, routingComponents } from './app-routing.module';//imp
 import { AppComponent } from './app.component';
 // import { NavbarComponent } from './navbar/navbar.component';
 
-import { FormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';//ovo dodajes da bi [(ngModel)] radio
 // import { DirectoryComponent } from './directory/directory.component';
 
 
