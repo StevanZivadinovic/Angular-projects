@@ -13,6 +13,7 @@ export class AppComponent {
     belt:'red',
     name:'Yoshi'
    }
+   message:any='';
 
   yellin(e:any){
       alert('I am loud');

@@ -21,11 +21,12 @@ export class NavbarComponent implements OnInit {
   @Input() ninja: any;
   @Output() onYell = new EventEmitter();
 
+  fireYellEvent() {
+    this.onYell.emit('text');
+  }
+  
   logujNINJU() {
     console.log(this.ninja);
-  }
-  fireYellEvent(e: any) {
-    this.onYell.emit(e);
   }
 
   prikaziInput(value: any) {
