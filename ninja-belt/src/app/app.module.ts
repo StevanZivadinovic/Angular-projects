@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 // import { NavbarComponent } from './navbar/navbar.component';
 
 import { FormsModule } from '@angular/forms';//ovo dodajes da bi [(ngModel)] radio
+import { PrviServiceService } from './services/prvi-service.service';
 // import { DirectoryComponent } from './directory/directory.component';
 
 
@@ -23,7 +24,7 @@ import { FormsModule } from '@angular/forms';//ovo dodajes da bi [(ngModel)] rad
     AppRoutingModule,
     FormsModule
   ],
-  providers: [],
+  providers: [PrviServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
