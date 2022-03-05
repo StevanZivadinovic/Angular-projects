@@ -24,7 +24,7 @@ import { PrviServiceService } from './services/prvi-service.service';
     AppRoutingModule,
     FormsModule
   ],
-  providers: [PrviServiceService],
+  providers: [PrviServiceService],//moze i bez ovoga u Angular 6
   bootstrap: [AppComponent]
 })
 export class AppModule { }
