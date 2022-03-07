@@ -1,10 +1,23 @@
+.base {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.base .app {
+  background-color: lightcoral;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
 .todo {
   display: flex;
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-around;
   margin-top: 2rem;
-  border: 1px solid red;
+  background-color: lightgray;
 }
 .todo .todoContent {
   display: flex;
@@ -28,4 +41,19 @@
 
 .strike {
   text-decoration: line-through;
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+form input {
+  padding: 0.8rem 2rem;
+  margin: 1rem 0 1rem 1rem;
+}
+form button {
+  align-self: center;
+  padding: 0.8rem 1rem;
 }/*# sourceMappingURL=todos.component.css.map */

@@ -46,8 +46,8 @@ export class TodosComponent implements OnInit {
     this.todos.push({
       completed:false,
       content :this.newTodo
-
-
+      
     })
+    this.newTodo = ''
   }
 }
