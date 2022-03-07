@@ -1,9 +1,1 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "directory.component.scss"
-    ],
-    "names": [],
-    "file": "directory.component.css"
-}
+{"version":3,"sources":[],"names":[],"mappings":"","file":"directory.component.css"}

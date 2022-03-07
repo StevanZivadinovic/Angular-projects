@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 
 import { FormsModule } from '@angular/forms';//ovo dodajes da bi [(ngModel)] radio
 import { PrviServiceService } from './services/prvi-service.service';
+import { TodosComponent } from './todos/todos.component';
 // import { DirectoryComponent } from './directory/directory.component';
 
 
@@ -14,7 +15,8 @@ import { PrviServiceService } from './services/prvi-service.service';
 @NgModule({
   declarations: [
     AppComponent,
-    routingComponents//dodato umesto ovog dole
+    routingComponents,//dodato umesto ovog dole
+    TodosComponent
     // NavbarComponent,
     // DirectoryComponent
     //umesto ove dve komponente ubacuje se routing komponent

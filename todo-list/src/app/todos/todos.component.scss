@@ -1,0 +1,31 @@
+.todo{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 2rem;
+    border: 1px solid red;
+    .todoContent{
+        display: flex;
+        width: 50%;
+        align-self: center;
+        justify-content: space-around;
+    }
+    a{
+        margin: .3rem 0;
+        padding: 1rem 2rem;
+        background-color: aqua;
+        display: inline-block;
+        outline: none;
+        box-shadow: 0rem .5rem rgba(grey,.1);
+    }
+    a:active{
+        color: red;
+        transform: translateY(.5rem);
+        box-shadow: .1rem 0.3rem .1rem 0rem rgba(grey,.1);
+    }
+}
+
+.strike{
+    text-decoration: line-through;
+}

@@ -1,0 +1,31 @@
+.todo {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: space-around;
+  margin-top: 2rem;
+  border: 1px solid red;
+}
+.todo .todoContent {
+  display: flex;
+  width: 50%;
+  align-self: center;
+  justify-content: space-around;
+}
+.todo a {
+  margin: 0.3rem 0;
+  padding: 1rem 2rem;
+  background-color: aqua;
+  display: inline-block;
+  outline: none;
+  box-shadow: 0rem 0.5rem rgba(128, 128, 128, 0.1);
+}
+.todo a:active {
+  color: red;
+  transform: translateY(0.5rem);
+  box-shadow: 0.1rem 0.3rem 0.1rem 0rem rgba(128, 128, 128, 0.1);
+}
+
+.strike {
+  text-decoration: line-through;
+}/*# sourceMappingURL=todos.component.css.map */
